@@ -3,7 +3,7 @@ package com.gao.o2o.entity;
 import java.util.Date;
 
 public class ShopCategory {
-	private Long shopCategory;
+	private Long shopCategoryId;
 	private String shopCategoryName;
 	private String shopCategoryDesc;
 	private String shopCategoryImg;
@@ -12,12 +12,12 @@ public class ShopCategory {
 	private Date lastEditTime;
 	private ShopCategory parent;
 
-	public Long getShopCategory() {
-		return shopCategory;
+	public Long getShopCategoryId() {
+		return shopCategoryId;
 	}
 
-	public void setShopCategory(Long shopCategory) {
-		this.shopCategory = shopCategory;
+	public void setShopCategoryId(Long shopCategoryId) {
+		this.shopCategoryId = shopCategoryId;
 	}
 
 	public String getShopCategoryName() {
