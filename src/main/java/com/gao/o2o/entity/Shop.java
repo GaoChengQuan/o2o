@@ -2,8 +2,6 @@ package com.gao.o2o.entity;
 
 import java.util.Date;
 
-import org.aspectj.weaver.AjAttribute.PrivilegedAttribute;
-
 public class Shop {
 	private Long shopId;
 	private String shopName;
